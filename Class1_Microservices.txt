@@ -1,0 +1,40 @@
+MICROSERVICE ARCHITECTURE 
+-Breaking down of one single monolithic architecture into multiple small functionalities 
+
+DNS - To map IP using browser(Every name has a ip associated so when we call sclaer.com it actually calls the ip)
+The request DNS servers goes to Load Balancer. Now request goes to Authorisation/Authentication service. Now it goes to accounts service . Then a Load Balancer Service 
+
+
+
+TWO TYPES OF LOAD BALANCING:
+-Path Based Routing
+-Instance Based Routing
+
+
+One MICROSERVICE should talk to one Database and it is known as Single Database Service Principle 
+
+-------------READ THREE AXIS OF SCALABILITY-----------------------
+
+
+POLYGLOT- A person who can speak multiple language. In programming terms different programming language 
+
+All LB should have capabilities to service discovery : When a new instance of a service comes up or existing service goes down 
+
+
+
+Two types of communication bw MICROSERVICES:
+- Synchronous: You talk and you wait for response (eg: talking to gf on call)
+- Asynchronous: You talk to multiple stuff (eg: talking on whatsapp)
+    -PubSub model 
+    -Queue model 
+
+-------------Read LOKI logs----------------------
+
+-------------Read Twelve Factor App-------------------
+
+-------------Read Microservice should be stateless---------------
+
+
+Two Type of Dependencies: 
+-Service Dependency 
+-Component Dependency
