@@ -1,0 +1,16 @@
+-------------Search on yt about data centre of aws--------------
+
+What is DevOps?
+- set of practices, tools and cultural philosphy that combine software dev and IT Operations to deliver applications and services faster 
+  & more reliably.
+
+------------0 downtime upgrade---------------------------------
+
+--------SDLC Lifecycle--------------
+
+UNIT TESTING IS DONE BY DEVELOPER NOT QA 
+
+---------Shift Left Approach------------
+
+----------Injection attack-----------------
+
